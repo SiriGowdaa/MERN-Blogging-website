@@ -29,11 +29,11 @@ function FooterCom() {
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.100jsprojects.com"
+                 // href="https://www.100jsprojects.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  100 JS Projects
+                   JS Projects
                 </Footer.Link>
                 <Footer.Link
                   href="/about"
@@ -48,7 +48,7 @@ function FooterCom() {
               <Footer.Title title="Follow us" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.github.com/sahandghavidel"
+                  href="https://www.github.com/SirishaR"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -78,7 +78,7 @@ function FooterCom() {
             <Footer.Icon href="#" icon={BsInstagram} />
             <Footer.Icon href="#" icon={BsTwitter} />
             <Footer.Icon
-              href="https://github.com/sahandghavidel"
+              href="https://github.com/SirishaR"
               icon={BsGithub}
             />
             <Footer.Icon href="#" icon={BsDribbble} />

@@ -3,6 +3,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import SignIn from './pages/SignIn'
 import Signup from './pages/Signup'
+import Search from './pages/Search'
 import Dashboard from './pages/Dashboard'
 import Projects from './pages/Projects'
 import Header from './components/Header'
@@ -24,6 +25,7 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/sign-in' element={<SignIn />} />
         <Route path='/sign-up' element={<Signup />} />
+        <Route path='/search' element={<Search />} />
         <Route element={<PrivateRoute/>} >
           
         <Route path='/dashboard' element={<Dashboard />} />
